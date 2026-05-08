@@ -102,6 +102,8 @@ def main() -> None:
         # Step 1: Get the report
         if args.report:
             report_path = args.report
+        elif args.report_only:
+            report_path = find_latest_report()
         else:
             report_path = run_tests()
 
