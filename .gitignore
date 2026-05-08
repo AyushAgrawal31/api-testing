@@ -28,3 +28,5 @@ Thumbs.db
 
 # artifacts
 api-artifacts/
+report.html
+*.json.report
